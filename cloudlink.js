@@ -22,8 +22,8 @@ class cloudlink {
 	}
 	getInfo() {
 		return {
-			id: 'cloudlink',
-			name: 'CloudLink',
+			id: 'cloud',
+			name: 'cloud',
 			color1: '#054c63',
 			color2: '#054c63',
 			color3: '#043444',
@@ -36,11 +36,11 @@ class cloudlink {
 			},{
 				opcode: 'getGData',
 				blockType: Scratch.BlockType.REPORTER,
-				text: 'Socket Data (Global)',
+				text: 'Data',
 			}, {
 				opcode: 'getPData',
 				blockType: Scratch.BlockType.REPORTER,
-				text: 'Socket Data (Private)',
+				text: 'Data',
 			}, {
 				opcode: 'getStatus',
 				blockType: Scratch.BlockType.REPORTER,
@@ -60,7 +60,7 @@ class cloudlink {
 			}, {
 				opcode: 'isNewGlobalData',
 				blockType: Scratch.BlockType.BOOLEAN,
-				text: 'Got New Data (Global)?',
+				text: 'Got New Data ?',
 			}, {
 				opcode: 'isNewPrivateData',
 				blockType: Scratch.BlockType.BOOLEAN,
